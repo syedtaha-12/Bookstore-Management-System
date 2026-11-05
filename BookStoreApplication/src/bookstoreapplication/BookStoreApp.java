@@ -23,6 +23,7 @@ public class BookStoreApp extends javax.swing.JFrame {
      * Creates new form LoginScreen
      */
     public BookStoreApp() {
+        owner = new Owner();
         customers = new ArrayList<>();
         books = new ArrayList<>();
         loadCustomers();
@@ -756,9 +757,9 @@ public class BookStoreApp extends javax.swing.JFrame {
         String password = new String(passwordInput.getPassword());
         boolean userFound = false;
 
-        if (username.equals("admin")) {
+        if (username.equals(owner.getUsername())) {
             userFound = true;
-            if (password.equals("admin")) {
+            if (password.equals(owner.getPassword())) {
                 cardLayout.show(containerPanel, "ownerScreen");
             }
             else {
@@ -1095,6 +1096,7 @@ public class BookStoreApp extends javax.swing.JFrame {
     }
     
     // our custom variables
+    private Owner owner;
     private ArrayList<Customer> customers;
     private ArrayList<Book> books;
     private ArrayList<Book> customerSelectedBooks;

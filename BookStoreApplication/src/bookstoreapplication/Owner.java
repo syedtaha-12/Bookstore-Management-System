@@ -11,7 +11,7 @@ package bookstoreapplication;
 public class Owner extends User {
     
     public Owner() {
-        super("admin", "admin");
+        super("admin", "admin123"); // password meets the 7-character rule in User
     }
     
 }

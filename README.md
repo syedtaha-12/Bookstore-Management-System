@@ -55,7 +55,7 @@ java -cp out bookstoreapplication.BookStoreApp
 ```
 Run it from the `BookStoreApplication` folder so the app can find `books.txt` and `customers.txt`.
 
-**Owner login:** username `admin`, password `admin`. Sample customer accounts are in `customers.txt`.
+**Owner login:** username `admin`, password `admin123`. Sample customer accounts are in `customers.txt`.
 
 ## Team
 
