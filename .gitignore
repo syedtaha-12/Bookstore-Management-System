@@ -1,1 +1,14 @@
+# Course report (kept off GitHub)
 report.pdf
+
+# Eclipse workspace files
+.metadata/
+
+# Build output
+build/
+dist/
+out/
+*.class
+
+# NetBeans personal settings
+nbproject/private/
