@@ -11,4 +11,4 @@ out/
 *.class
 
 # NetBeans personal settings
-nbproject/private/
+**/nbproject/private/
