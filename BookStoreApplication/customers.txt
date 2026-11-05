@@ -1,0 +1,6 @@
+Prateek4,password123:620
+Yin123,123password:500
+Taha99,password!@#:100
+Bob,bobiscool:150
+John,8888888:0
+peepee,poopoos:0
